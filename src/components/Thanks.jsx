@@ -30,7 +30,9 @@ const Thanks = ({ data }) => {
           <span>Comentário: </span>
             {data.comment}
         </p>
-        <p>Para concluir a avaliação, clique no botão Enviar abaixo.</p>
+        <p>Para concluir a avaliação, passe o mouse sobre a imagem e 
+          clique no botão Enviar logo abaixo.</p>
+        <img className='img' src='obrigado.jpeg' alt='agradecimento'/>
     </div>
   )
 }
