@@ -36,3 +36,8 @@
     font-size: 0.7rem;
     margin-top: 0.4rem;
 }
+
+.form-control h3 {
+    text-align: center;   
+    justify-content: center;;
+}

@@ -10,6 +10,7 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
   return (
     <div className='review-form'>
         <div className="form-control score-container">
+          
           <label className="radio-container">
             <input 
             type="radio" 
@@ -60,6 +61,7 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
           </label>
         </div>
         <div className="form-control">
+        <h3 className='title'>Preencha todos os campos e clique em avançar</h3>
           <label htmlFor='comment'>Comentário:</label>
           <textarea 
           name="comment" 
