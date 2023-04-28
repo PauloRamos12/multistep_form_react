@@ -27,3 +27,9 @@
 .review-data span {
     font-weight: bold;
 }
+
+.comment {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}

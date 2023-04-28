@@ -46,17 +46,17 @@ function App() {
           {!isFirstStep && (
             <button type='button' className='button' onClick={() => changeStep(currentStep - 1)}>
               <GrFormPrevious />
-              <span>Voltar</span> 
+              <span>VOLTAR</span> 
             </button>
           )}
           {!isLastStep ? (
             <button type='submit' className='button'>
-              <span>Avançar</span>
+              <span>AVANÇAR</span>
               <GrFormNext />
             </button>            
             ) : (
             <button type='button' className='button'>
-              <span>Enviar</span>
+              <span>ENVIAR</span>
               <FiSend />
             </button>
             )}
